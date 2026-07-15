@@ -9,7 +9,15 @@ header {
     background-color: #2563eb;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
 }
 
 nav {
@@ -21,7 +29,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 15px;
+    margin: 10px;
     font-weight: bold;
 }
 
@@ -31,11 +39,11 @@ nav a:hover {
 
 section {
     background: white;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 25px auto;
+    padding: 25px;
     width: 85%;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
@@ -46,19 +54,19 @@ textarea,
 input {
     width: 100%;
     padding: 12px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6px;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 button {
     background-color: #2563eb;
     color: white;
     border: none;
-    padding: 12px 20px;
-    border-radius: 5px;
+    padding: 12px 25px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
 }
@@ -67,10 +75,45 @@ button:hover {
     background-color: #1d4ed8;
 }
 
+
+#emailOutput,
+#meetingOutput,
+#taskOutput,
+#researchOutput,
+#chatOutput {
+    background-color: #eef2ff;
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 5px solid #2563eb;
+    border-radius: 5px;
+}
+
+section:last-of-type {
+    background-color: #fefce8;
+}
+
+
 footer {
     text-align: center;
     background-color: #2563eb;
     color: white;
     padding: 20px;
     margin-top: 30px;
+}
+
+
+@media (max-width: 600px) {
+
+    section {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
 }
