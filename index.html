@@ -1,33 +1,79 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>AI Productivity Assistant</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Workplace Productivity Assistant</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>AI-Powered Workplace Productivity Assistant</h1>
+<header>
+    <h1>🤖 AI-Powered Workplace Productivity Assistant</h1>
+    <p>Helping professionals automate everyday workplace tasks using AI.</p>
+</header>
 
-<h2>Email Generator</h2>
-<textarea placeholder="Type your email request"></textarea>
-<button>Generate Email</button>
+<nav>
+    <a href="#email">Email Generator</a>
+    <a href="#meeting">Meeting Summarizer</a>
+    <a href="#tasks">Task Planner</a>
+    <a href="#research">Research Assistant</a>
+    <a href="#chatbot">Chatbot</a>
+</nav>
 
-<h2>Meeting Summarizer</h2>
-<textarea placeholder="Paste meeting notes"></textarea>
-<button>Summarize</button>
+<section id="email">
+    <h2>📧 Email Generator</h2>
+    <p>Create professional emails quickly.</p>
+    <textarea id="emailInput" placeholder="Describe the email you need..."></textarea>
+    <button onclick="generateEmail()">Generate Email</button>
+    <div id="emailOutput"></div>
+</section>
 
-<h2>Task Planner</h2>
-<textarea placeholder="Enter your tasks"></textarea>
-<button>Create Plan</button>
+<section id="meeting">
+    <h2>📝 Meeting Summarizer</h2>
+    <p>Summarize meeting notes into key points.</p>
+    <textarea id="meetingInput" placeholder="Paste meeting notes here..."></textarea>
+    <button onclick="summarizeMeeting()">Summarize</button>
+    <div id="meetingOutput"></div>
+</section>
 
-<h2>Research Assistant</h2>
-<input type="text" placeholder="Ask a question">
-<button>Research</button>
+<section id="tasks">
+    <h2>✅ Task Planner</h2>
+    <p>Organize your daily tasks.</p>
+    <textarea id="taskInput" placeholder="Enter your tasks..."></textarea>
+    <button onclick="planTasks()">Create Plan</button>
+    <div id="taskOutput"></div>
+</section>
 
-<h2>Chatbot</h2>
-<input type="text" placeholder="Type a message">
-<button>Send</button>
+<section id="research">
+    <h2>🔍 Research Assistant</h2>
+    <p>Quickly organize research topics.</p>
+    <input type="text" id="researchInput" placeholder="Enter a research topic">
+    <button onclick="research()">Research</button>
+    <div id="researchOutput"></div>
+</section>
+
+<section id="chatbot">
+    <h2>🤖 AI Chatbot</h2>
+    <p>Ask simple workplace questions.</p>
+    <input type="text" id="chatInput" placeholder="Ask a question">
+    <button onclick="chat()">Send</button>
+    <div id="chatOutput"></div>
+</section>
+
+<section>
+    <h2>🔒 Responsible AI</h2>
+    <p>
+        This assistant demonstrates how AI can improve workplace productivity.
+        All AI-generated content should be reviewed by a human before being used
+        in professional or business environments.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 AI-Powered Workplace Productivity Assistant</p>
+</footer>
 
 <script src="script.js"></script>
 
