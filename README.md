@@ -1,32 +1,26 @@
 # AI-Powered Workplace Productivity Assistant
 
-## Overview
+## Project Overview
 
-The AI-Powered Workplace Productivity Assistant is a web application designed to improve workplace efficiency using Artificial Intelligence. The application automates repetitive tasks such as writing professional emails, summarizing meeting notes, planning daily tasks, and conducting quick research.
+This project is an AI-powered workplace assistant that helps users automate everyday tasks such as email generation, meeting summarization, task planning, research assistance, and chatbot interaction.
 
 ## Features
 
-- Smart Email Generator
-- Meeting Notes Summarizer
-- AI Task Planner
-- AI Research Assistant
+- Email Generation
+- Meeting Summarization
+- Task Planning
+- Research Assistance
+- Chatbot Interaction
 
-## Technologies
+## AI Tools Used
 
-- Lovable AI
-- OpenAI
-- HTML
-- CSS
-- JavaScript
-- GitHub
+- ChatGPT
+- Google Gemini
 
-## Responsible AI
+## Prompt Engineering
 
-Users should always verify AI-generated content before using it in professional environments.
+This project uses carefully designed prompts to generate useful and relevant AI responses.
 
-## Future Improvements
+## Ethical AI
 
-- Calendar Integration
-- Voice Commands
-- User Authentication
-- Export to PDF
+AI-generated content should always be reviewed by a human before being used.
